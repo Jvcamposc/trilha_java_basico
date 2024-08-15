@@ -1,6 +1,6 @@
+//AULA 1
 public class Variaveis {
-    public static void main(String[] args) throws Exception {
-         // Variáveis primitivas
+    // Variáveis primitivas
     byte diasDaSemana = 7; // Tipo byte, armazena pequenos inteiros (-128 a 127)
     short anoNascimento = 1995; // Tipo short, armazena inteiros de -32.768 a 32.767
     int populacaoCidade = 1500000; // Tipo int, armazena inteiros de -2.147.483.648 a 2.147.483.647
@@ -12,17 +12,18 @@ public class Variaveis {
     boolean isVacinado = true; // Tipo boolean, armazena verdadeiro (true) ou falso (false)
     char inicialDoNome = 'A'; // Tipo char, armazena um único caractere, como 'A', 'B', etc.
 
-    Variaveis exemplo = new Variaveis();
+    public static void main(String[] args) throws Exception {
+    Variaveis exemplo = new Variaveis(); 
 
     // Exibindo valores das variáveis
-    System.out.println("Dias da Semana: " + diasDaSemana);
-    System.out.println("Ano de Nascimento: " + anoNascimento);
-    System.out.println("População da Cidade: " + populacaoCidade);
-    System.out.println("Distância até a Estrela mais próxima (em km): " + distanciaEstrela);
-    System.out.println("Altura: " + altura);
-    System.out.println("Saldo Bancário: " + saldoBancario);
-    System.out.println("Vacinado: " + isVacinado);
-    System.out.println("Inicial do Nome: " + inicialDoNome);
+    System.out.println("Dias da Semana: " + exemplo.diasDaSemana);
+    System.out.println("Ano de Nascimento: " + exemplo.anoNascimento);
+    System.out.println("População da Cidade: " + exemplo.populacaoCidade);
+    System.out.println("Distância até a Estrela mais próxima (em km): " + exemplo.distanciaEstrela);
+    System.out.println("Altura: " + exemplo.altura);
+    System.out.println("Saldo Bancário: " + exemplo.saldoBancario);
+    System.out.println("Vacinado: " + exemplo.isVacinado);
+    System.out.println("Inicial do Nome: " + exemplo.inicialDoNome);
     }
 } 
     /* -----EXEMPLO----
