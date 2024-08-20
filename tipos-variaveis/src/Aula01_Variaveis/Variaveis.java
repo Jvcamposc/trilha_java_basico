@@ -1,3 +1,4 @@
+package Aula01_Variaveis;
 //AULA 1
 public class Variaveis {
     // Variáveis primitivas

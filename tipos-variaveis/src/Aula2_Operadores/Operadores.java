@@ -1,3 +1,4 @@
+package Aula2_Operadores;
 /*//AULA 2
 public class Operadores {
     public static void main(String[] args) {
