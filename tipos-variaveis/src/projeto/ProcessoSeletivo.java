@@ -16,11 +16,11 @@ public class ProcessoSeletivo {
         // imprimirSelecionados();//Imprimindo a Case 3
 
         //Imprimindo a case 4
-        String[] candidatos = { "FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO" };
+        /*String[] candidatos = { "FELIPE", "MARCIA", "JULIA", "PAULO", "AUGUSTO" };
 
         for (String candidato : candidatos) {
             entrandoEmContato(candidato);
-        }
+        }*/
     }
 
     // CASE 4
